@@ -31,6 +31,20 @@
       "eas": {
         "projectId": "bd6124a9-7643-41a5-bbd0-cd3c4ad5f82f"
       }
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "kirankanth789"
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bd6124a9-7643-41a5-bbd0-cd3c4ad5f82f"
     }
   }
 }
