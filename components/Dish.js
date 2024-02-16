@@ -44,7 +44,7 @@ const Dish = ({name, description, id, price, image}) => {
               className="p-1 rounded-full"
               style={{ backgroundColor: themeColors.bgColor(1) }}
               onPress={handleDecrease}
-              disabled={!totalItems.length}
+              disabled={!totalItems?.length}
             >
               <Icon.Minus
                 stroke={"white"}
@@ -53,7 +53,7 @@ const Dish = ({name, description, id, price, image}) => {
                 width={20}
               />
             </TouchableOpacity>
-            <Text className="px-3">{totalItems.length}</Text>
+            <Text className="px-3">{totalItems && totalItems?.length}</Text>
             <TouchableOpacity
               className="p-1 rounded-full"
               style={{ backgroundColor: themeColors.bgColor(1) }}
