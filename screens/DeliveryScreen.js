@@ -17,6 +17,7 @@ const DeliveryScreen = () => {
     navigation.navigate("Home")
     dispatch(emptyCart());
   }
+  console.log(restaurant)
   return (
     <View className="flex-1">
       <MapView
@@ -31,7 +32,7 @@ const DeliveryScreen = () => {
       >
         <Marker
           coordinate={{ latitude: restaurant.lat, longitude: restaurant.lng }}
-          title={restaurant.name}
+          title={restaurant.title}
           description={restaurant.description}
           pinColor={themeColors.bgColor(1)}
         ></Marker>
