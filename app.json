@@ -29,22 +29,8 @@
     },
     "extra": {
       "eas": {
-        "projectId": "bd6124a9-7643-41a5-bbd0-cd3c4ad5f82f"
+        "projectId": "974d3981-73f3-4505-b1fc-99c0bacae68c"
       }
-    },
-    "plugins": [
-      [
-        "expo-updates",
-        {
-          "username": "kirankanth789"
-        }
-      ]
-    ],
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/bd6124a9-7643-41a5-bbd0-cd3c4ad5f82f"
     }
   }
 }
